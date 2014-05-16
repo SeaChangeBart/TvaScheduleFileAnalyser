@@ -7,6 +7,9 @@ namespace TvaScheduleFileAnalyser
 {
     internal class ScheduleAnalysis
     {
+        public bool IsError { get { return ServiceId == null; } }
+        public bool IsWrong { get { return WrongEvents != null && WrongEvents.Any(); } }
+
         public string ServiceId { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }

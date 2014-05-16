@@ -83,9 +83,9 @@ namespace TvaScheduleFileAnalyser
 
         private static string ToTsvString_IfErrorOrWrong(ScheduleAnalysis analysis, int index)
         {
-            if (analysis.ServiceId == null)
+            if (analysis.IsError)
                 return ToTsvString_Error(analysis, index);
-            return analysis.WrongEvents.Any() ? ToTsvString(analysis, index) : null;
+            return analysis.IsWrong ? ToTsvString(analysis, index) : null;
         }
 
         private static string ToTsvString(ScheduleAnalysis r, int index)
