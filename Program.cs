@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace MeasureScheduleDuration
+namespace TvaScheduleFileAnalyser
 {
     internal static class Program
     {
         private static void Main(string[] args)
         {
-            Log("Usage: AnalyseSchedule [dir] [daysHistory]" );
+            Log("Usage: TvaScheduleFileAnalyser.exe [dir] [daysHistory]");
 
             var path = args.FirstOrDefault() ?? ".";
             var daysHistory = ParseIntOr(args.Skip(1).FirstOrDefault(), 60);

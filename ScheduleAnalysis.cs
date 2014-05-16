@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Xml.Linq;
 
-namespace MeasureScheduleDuration
+namespace TvaScheduleFileAnalyser
 {
     internal class ScheduleAnalysis
     {

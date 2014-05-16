@@ -7,8 +7,8 @@
     <ProjectGuid>{CDD3BBB9-AD0A-4389-82BE-86640804D9B7}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MeasureScheduleDuration</RootNamespace>
-    <AssemblyName>MeasureScheduleDuration</AssemblyName>
+    <RootNamespace>TvaScheduleFileAnalyser</RootNamespace>
+    <AssemblyName>TvaScheduleFileAnalyser</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
